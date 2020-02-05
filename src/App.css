@@ -69,12 +69,12 @@
 
 .movie {
   padding: 5px 25px 10px 25px;
-  max-width: 25%;
 }
 
 .errorMessage {
   margin: auto;
   font-weight: bold;
+  font-size: 20px;
   color: rgb(161, 15, 15);
 }
 
@@ -91,7 +91,7 @@ input[type="submit"] {
   background-color: transparent;
   color: black;
   border: 1px solid black;
-  width: 80px;
+  /* width: 80px; */
   margin-left: 5px;
   cursor: pointer;
 }
@@ -102,8 +102,15 @@ input[type="submit"]:hover {
 }
 
 .search > input[type="text"] {
-  width: 40%;
-  min-width: 170px;
+  /* width: 40%; */
+  min-width: 20rem;
+  font-size: large;
+}
+
+.search > input[type="text"]::placeholder {
+  font-style: italic;
+  font-size: large;
+  padding-left: 0.5rem;
 }
 
 @media screen and (min-width: 694px) and (max-width: 915px) {
@@ -123,72 +130,27 @@ input[type="submit"]:hover {
     max-width: 100%;
     margin: auto;
   }
+  .search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
 }
 
-/* DropDown css */
-/* .dropdown {
-  float: left;
-  overflow: hidden;
-} */
-
-/* .dropdown .dropbtn {
-  padding: 5px;
-  font-size: 16px;
-  background-color: transparent;
-  color: black;
-  /* border: 1px solid black; */
-/* width: auto; */
-/* margin-left: 5px; */
-/* cursor: pointer; */
-/* } */
-/* 
-.dropdown:hover .dropbtn {
-  background-color: grey;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-} */
-
-/* .dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
-
-/* .select:hover .select-content {
-  background-color: grey;
-  display: block;
-}
-.select-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-} */
 .select {
-  width: 15%;
+  min-width: 10rem;
 }
 
 .spinner {
   height: 80px;
   margin: auto;
+}
+
+.cardContainer {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  border-radius: 10px;
+  margin: 12px;
 }

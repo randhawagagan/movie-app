@@ -35,6 +35,7 @@ const Search = (props) => {
         value={searchValue}
         onChange={handleSearchInputChanges}
         type="text"
+        placeholder="Search any Movie/Series/Episode"
       />
 
       <Select
