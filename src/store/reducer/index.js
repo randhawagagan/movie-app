@@ -13,6 +13,7 @@ export const reducer = (state, action) => {
         errorMessage: null
       };
     case "SEARCH_MOVIES_SUCCESS":
+
       return {
         ...state,
         loading: false,
