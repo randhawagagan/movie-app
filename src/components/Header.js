@@ -3,7 +3,7 @@ import logo from '../disney.svg';
 import '../App.css'
 const Header = (props) => {
   return (
-    <header className="App-header">
+    <header className="App-header" onClick={props.onClick}>
       <img src={logo} alt="logo" />
       <h2 className="headertext">{props.text}</h2>
     </header>

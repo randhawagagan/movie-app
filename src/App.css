@@ -124,3 +124,71 @@ input[type="submit"]:hover {
     margin: auto;
   }
 }
+
+/* DropDown css */
+/* .dropdown {
+  float: left;
+  overflow: hidden;
+} */
+
+/* .dropdown .dropbtn {
+  padding: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  /* border: 1px solid black; */
+/* width: auto; */
+/* margin-left: 5px; */
+/* cursor: pointer; */
+/* } */
+/* 
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+} */
+
+/* .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+/* .select:hover .select-content {
+  background-color: grey;
+  display: block;
+}
+.select-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+} */
+.select {
+  width: 15%;
+}
+
+.spinner {
+  height: 80px;
+  margin: auto;
+}
